@@ -39,7 +39,7 @@ const C = {
   white: '#FFFFFF',
   border: 'rgba(0,0,0,0.1)',
 };
-
+/*
 // ─── DATOS INICIALES (Se cargarán de Supabase si existen) ───
 const INIT_PRODUCTOS = [
   {
@@ -297,7 +297,7 @@ const INIT_LOTES = [
     otros: 120,
   },
 ];
-
+*/
 // ─── UTILIDADES ───────────────────────────────────────────────
 const formatBs = (n) =>
   `Bs ${Number(n || 0).toLocaleString('es-BO', {
