@@ -1137,7 +1137,7 @@ function Ventas({ productos, ventas, setVentas, setProductos, setCaja }) {
             label="Vendedor"
             value={form.vendedor}
             onChange={(v) => f('vendedor', v)}
-            options={['Carlos (Admin)', 'María (Vendedora)']}
+            options={['Willy (Admin)', 'Jilda (Vendedora)','Ricardo (Vendedor)','Jhaz (Vendedora)']}
             required
           />
           <Input
