@@ -41,6 +41,9 @@ const C = {
 };
 // ─── DATOS INICIALES (Se cargarán de Supabase si existen) ───
 const INIT_PRODUCTOS = [];
+const INIT_VENTAS = [];
+const INIT_LOTES = [];
+const INIT_CAJA = [];
 // ─── UTILIDADES ───────────────────────────────────────────────
 const formatBs = (n) =>
   `Bs ${Number(n || 0).toLocaleString('es-BO', {
